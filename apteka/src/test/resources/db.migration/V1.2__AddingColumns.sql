@@ -1,0 +1,32 @@
+INSERT INTO d_medicine (name, date_of_use, description, price) VALUES('Euthyrox', '2020-06-02', 'just medicine', 5.20);
+INSERT INTO d_medicine (name, date_of_use, description, price) VALUES('Ibuprom', '2020-06-15', 'pain', 10.50);
+INSERT INTO d_medicine (name, date_of_use, description, price) VALUES('Rutinoscorbin', '2030-06-02', 'cold', 3.50);
+INSERT INTO d_medicine (name, date_of_use, description, price) VALUES('Smecta', '2020-12-02', 'just medicine', 5.80);
+INSERT INTO d_medicine (name, date_of_use, description, price) VALUES('Medicine', '2050-06-02', 'just medicine', 15.58);
+
+INSERT INTO d_user(login, name, surname, password, role) VALUES('Admin', 'Admin', 'Admin', '87639401321364826396195642631510383779176952804949321024754455897071731039599','Admin');
+INSERT INTO d_user(login, name, surname, password, role) VALUES('User', 'User', 'User', '81901929929785301704583970135955559443991986239586875295851602119696474874445','User');
+INSERT INTO d_user(login, name, surname, password, role) VALUES('User1', 'User1', 'User1', '81901929929785301704583970135955559443991986239586875295851602119696474874445','User');
+INSERT INTO d_user(login, name, surname, password, role) VALUES('User2', 'User2', 'User2', '81901929929785301704583970135955559443991986239586875295851602119696474874445','User');
+INSERT INTO d_user(login, name, surname, password, role) VALUES('User3', 'User3', 'User3', '81901929929785301704583970135955559443991986239586875295851602119696474874445','User');
+INSERT INTO d_user(login, name, surname, password, role) VALUES('User4', 'User4', 'User4', '81901929929785301704583970135955559443991986239586875295851602119696474874445','User');
+INSERT INTO d_user(login, name, surname, password, role) VALUES('User5', 'User5', 'User5', '81901929929785301704583970135955559443991986239586875295851602119696474874445','User');
+INSERT INTO d_user(login, name, surname, password, role) VALUES('User6', 'User6', 'User6', '81901929929785301704583970135955559443991986239586875295851602119696474874445','User');
+INSERT INTO d_user(login, name, surname, password, role) VALUES('User7', 'User7', 'User7', '81901929929785301704583970135955559443991986239586875295851602119696474874445','User');
+INSERT INTO d_user(login, name, surname, password, role) VALUES('User8', 'User8', 'User8', '81901929929785301704583970135955559443991986239586875295851602119696474874445','User');
+INSERT INTO d_user(login, name, surname, password, role) VALUES('User9', 'User9', 'User9', '81901929929785301704583970135955559443991986239586875295851602119696474874445','User');
+INSERT INTO d_user(login, name, surname, password, role) VALUES('User10', 'User10', 'User10', '81901929929785301704583970135955559443991986239586875295851602119696474874445','User');
+INSERT INTO d_user(login, name, surname, password, role) VALUES('User11', 'User11', 'User11', '81901929929785301704583970135955559443991986239586875295851602119696474874445','User');
+INSERT INTO d_user(login, name, surname, password, role) VALUES('User12', 'User12', 'User12', '81901929929785301704583970135955559443991986239586875295851602119696474874445','User');
+INSERT INTO d_user(login, name, surname, password, role) VALUES('User13', 'User13', 'User13', '81901929929785301704583970135955559443991986239586875295851602119696474874445','User');
+INSERT INTO d_user(login, name, surname, password, role) VALUES('User14', 'User14', 'User14', '81901929929785301704583970135955559443991986239586875295851602119696474874445','User');
+INSERT INTO d_user(login, name, surname, password, role) VALUES('User15', 'User15', 'User15', '81901929929785301704583970135955559443991986239586875295851602119696474874445','User');
+INSERT INTO d_user(login, name, surname, password, role) VALUES('User16', 'User16', 'User16', '81901929929785301704583970135955559443991986239586875295851602119696474874445','User');
+INSERT INTO d_user(login, name, surname, password, role) VALUES('User17', 'User17', 'User17', '81901929929785301704583970135955559443991986239586875295851602119696474874445','User');
+INSERT INTO d_user(login, name, surname, password, role) VALUES('User18', 'User18', 'User18', '81901929929785301704583970135955559443991986239586875295851602119696474874445','User');
+INSERT INTO d_user(login, name, surname, password, role) VALUES('User19', 'User19', 'User19', '81901929929785301704583970135955559443991986239586875295851602119696474874445','User');
+INSERT INTO d_user(login, name, surname, password, role) VALUES('User20', 'User20', 'User20', '81901929929785301704583970135955559443991986239586875295851602119696474874445','User');
+
+INSERT INTO d_warehouse(name, listOfMedicines, listOfUsers) VALUES('Moja Apteczka',1,2);
+INSERT INTO d_warehouse(name, listOfMedicines, listOfUsers) VALUES('Wesola apteka',4,8);
+INSERT INTO d_warehouse(name, listOfMedicines, listOfUsers) VALUES('Moja Apteczka',3,10);
