@@ -1,7 +1,7 @@
 # Apteka
 This project I create for recruitment purpose to PGS 
 Project I create is online pharmacy.I have created 3 tables: User, Warehouse and Medicine. In Medicine I put name of medicine, price of it, decription and date when we can use it. In Warehouse table I put information about pharmacy: which customers doing here shop, what kind of medicine we can finf there and the name of warehouse. In User table we have 2 roles: User and Admin. Each of them can do another thing. 
-<b>Admin can do: <br/></br>
+<b>Admin can do: <br/></b>
 *create medicine <br/>
 *delete medicine <br/>
 *see list of all medicine<br/>
